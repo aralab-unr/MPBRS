@@ -38,7 +38,7 @@ Our method is built upon the used of nine humanoid robot, the URDF is then expor
 * [Fourier N1](https://github.com/FFTAI/Wiki-GRx-Gym): [Link to file](https://github.com/FFTAI/Wiki-GRx-Gym/tree/FourierN1/legged_gym/resources/robots/N1)
 * [Kuavo S45](https://gitee.com/leju-robot/kuavo-ros-opensource/blob/master/LICENSE)
 * [Berkley Humanoid Lite](https://github.com/HybridRobotics/Berkeley-Humanoid-Lite-Assets)
-* [Booster T1](https://booster.feishu.cn/wiki/UvowwBes1iNvvUkoeeVc3p5wnUg): [Link to file]((https://booster.feishu.cn/wiki/DtFgwVXYxiBT8BksUPjcOwG4n4f))
+* [Booster T1](https://booster.feishu.cn/wiki/UvowwBes1iNvvUkoeeVc3p5wnUg): [Link to file](https://booster.feishu.cn/wiki/DtFgwVXYxiBT8BksUPjcOwG4n4f)
 * [HighToqure Hi](https://www.hightorquerobotics.com/hi/)
 * [Unitree G1](https://github.com/unitreerobotics/unitree_ros): [Link to file](https://github.com/unitreerobotics/unitree_ros/tree/master/robots/g1_description)
 * [Unitree H1](https://github.com/unitreerobotics/unitree_ros): [Link to file](https://github.com/unitreerobotics/unitree_ros/tree/master/robots/h1_description)
