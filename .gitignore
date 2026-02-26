@@ -1,0 +1,39 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.venv/
+venv/
+
+# ROS / build
+build/
+install/
+log/
+
+# TensorBoard / training logs
+runs/
+logs/
+events.out.tfevents.*
+
+# RL checkpoints / models
+*.pt
+*.pth
+*.ckpt
+*.onnx
+
+# Large media/data
+*.mp4
+*.bag
+*.db3
+*.zip
+*.tar
+*.gz
+*.npz
+*.npy
+
+# VSCode
+.vscode/
+
+# OS
+.DS_Store
