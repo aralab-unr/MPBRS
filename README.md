@@ -33,8 +33,7 @@ Note that nine humanoid robots are available for training: Fourier N1, Tienkung2
 
 ## Acknowledgement
 
-Our method is built upon the used of nine humanoid robot, the URDF is then exported to the IsaacLab using USD file in the provided code, we provided the USD instead of URDf. The original URDF robot models can be found at the following locations:
-
+Our method is developed and evaluated using nine humanoid robots. In the provided code, the robot models are imported into IsaacLab as USD files, and we provide the USD files rather than the URDF files. The original URDF robot models can be found at the following locations:
 * [Fourier N1](https://github.com/FFTAI/Wiki-GRx-Gym): [Link to file](https://github.com/FFTAI/Wiki-GRx-Gym/tree/FourierN1/legged_gym/resources/robots/N1)
 * [Kuavo S45](https://gitee.com/leju-robot/kuavo-ros-opensource/blob/master/LICENSE)
 * [Berkley Humanoid Lite](https://github.com/HybridRobotics/Berkeley-Humanoid-Lite-Assets)
