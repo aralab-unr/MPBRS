@@ -2,6 +2,12 @@
 <p align="center">
   <img src="figures/humanoidtype.png" alt="failure" width="1000">
 </p>
+#### Key features of MPBRS:
+- Multi-term potential-based reward shaping (MPBRS) for humanoid RL, combining interpretable terms such as uprightness, height regulation, and joint regularization.
+- Dense, progress-based reward signals that improve learning stability and sample efficiency compared to ad-hoc reward bonuses.
+- Easy to debug and tune; MPBRS supports multiple humanoid robots and is less sensitive to reward-weight tuning.
+> [!NOTE]
+> If you want this repo to support your robot, please send the robot files (`.xml`, `.urdf`, and meshes) or create an issue, we will support it asap. Please make sure that the robot files you sent can be open-sourced in this repo.
 
 # Installation & Usage
 The training was built on top of IsaacLab and run on Ubuntu 22.04 on a computer equipped with an Intel i7-9700F CPU and an NVIDIA GeForce RTX 2060 GPU (6 GB). The training took approximately 50 minutes for each robot.
