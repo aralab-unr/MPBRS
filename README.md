@@ -11,17 +11,22 @@ The training was built on top of IsaacLab and run on Ubuntu 22.04 on a computer 
 Following the IsaacLab installation instructions for Ubuntu 22.04: https://isaac-sim.github.io/IsaacLab/main/source/setup/installation/pip_installation.html```
 ```
 
-**2**. Install packages. Download from [official link](https://developer.nvidia.com/isaac-gym) and then install it:
+**2**. Install packages. Clone the package or download and unzip it:
 ```bash
+source env_isaaclab/bin/activate
 cd humanoid_locomotion && pip install -e .
+cp trainhumanoidlocomotion.py playhumanoidlocomotion.py ~/IsaacLab/
+cd ~/IsaacLab/
 ```
 
-**3**. Install packages
+**3**. Running the packages (running and training was in the IsaabLab environment)
 ```bash
-
-cd legged_gym && pip install -e . && cd ..
-pip install "numpy==1.23.0" pydelatin wandb tqdm opencv-python ipdb pyfqmr flask dill gdown hydra-core imageio[ffmpeg] mujoco mujoco-python-viewer isaacgym-stubs pytorch-kinematics rich termcolor 
-pip install redis[hiredis]
-pip install pyttsx3 # for voice control
-cd pose && pip install -e . && cd ..
+./isaaclab.sh -p trainhumanoidlocomotion.py --task Isaac-Humanoid-Locomotion --num_envs 2048 --headless
 ```
+
+**3**. Play the trained agent
+```bash
+./isaaclab.sh -p playhumanoidlocomotion.py   --task=Isaac-Humanoid-Locomotion   --num_envs 10   --checkpoint /home/ara/IsaacLab/logs/rsl_rl/humanoid-locomotion/***/model_***.pt
+*** should be replaced with: the training log folder name (the run directory), andthe saved model checkpoint file (e.g., model_1000.pt).
+```
+
