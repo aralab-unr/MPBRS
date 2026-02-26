@@ -26,7 +26,7 @@ cd ~/IsaacLab/
 
 **3**. Play the trained agent
 ```bash
-./isaaclab.sh -p playhumanoidlocomotion.py   --task=Isaac-Humanoid-Locomotion   --num_envs 10   --checkpoint /home/ara/IsaacLab/logs/rsl_rl/humanoid-locomotion/***/model_***.pt
+./isaaclab.sh -p playhumanoidlocomotion.py   --task=Isaac-Humanoid-Locomotion   --num_envs 10   --checkpoint ~/IsaacLab/logs/rsl_rl/humanoid-locomotion/***/model_***.pt
 *** should be replaced with: the training log folder name (the run directory), andthe saved model checkpoint file (e.g., model_1000.pt).
 ```
 
