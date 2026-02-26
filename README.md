@@ -12,14 +12,14 @@ conda create -n twist python=3.8
 conda activate twist
 ```
 
-**2**. Install isaacgym. Download from [official link](https://developer.nvidia.com/isaac-gym) and then install it:
+**2**. Install packages. Download from [official link](https://developer.nvidia.com/isaac-gym) and then install it:
 ```bash
-cd isaacgym/python && pip install -e .
+cd humanoid_locomotion && pip install -e .
 ```
 
-**3**. Install packages:
+**3**. Install packages
 ```bash
-cd rsl_rl && pip install -e . && cd ..
+
 cd legged_gym && pip install -e . && cd ..
 pip install "numpy==1.23.0" pydelatin wandb tqdm opencv-python ipdb pyfqmr flask dill gdown hydra-core imageio[ffmpeg] mujoco mujoco-python-viewer isaacgym-stubs pytorch-kinematics rich termcolor 
 pip install redis[hiredis]
