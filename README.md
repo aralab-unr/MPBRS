@@ -3,7 +3,7 @@
   <img src="figures/humanoidtype.png" alt="failure" width="1000">
 </p>
 
-# Installation
+# Installation & Usage
 The training was built on top of IsaacLab and run on Ubuntu 22.04 on a computer equipped with an Intel i7-9700F CPU and an NVIDIA GeForce RTX 2060 GPU (6 GB). The training took approximately 50 minutes for each robot.
 
 **1**. Install IsaabLab and create the virtual environment:
