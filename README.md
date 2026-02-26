@@ -5,11 +5,10 @@
 
 # Installation
 The training was built on top of IsaacLab and run on Ubuntu 22.04 on a computer equipped with an Intel i7-9700F CPU and an NVIDIA GeForce RTX 2060 GPU (6 GB). The training took approximately 50 minutes for each robot.
-**1**. Create conda environment:
+
+**1**. Install IsaabLab and create the virtual environment:
 ```bash
-conda env remove -n twist
-conda create -n twist python=3.8
-conda activate twist
+Following the IsaacLab installation instructions for Ubuntu 22.04: https://isaac-sim.github.io/IsaacLab/main/source/setup/installation/pip_installation.html```
 ```
 
 **2**. Install packages. Download from [official link](https://developer.nvidia.com/isaac-gym) and then install it:
