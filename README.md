@@ -1,1 +1,1 @@
-# Multi-PBRS: A Unified Reward Config for Humanoid Locomotion
+# MPBRS: Multi-Potential-Based Reward Shaping for a Unified Reward Configuration in Humanoid Locomotion
