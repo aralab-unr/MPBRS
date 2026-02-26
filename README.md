@@ -43,4 +43,4 @@ Our method is built upon the used of nine humanoid robot, the URDF is then expor
 * [Unitree G1](https://github.com/unitreerobotics/unitree_ros): [Link to file](https://github.com/unitreerobotics/unitree_ros/tree/master/robots/g1_description)
 * [Unitree H1](https://github.com/unitreerobotics/unitree_ros): [Link to file](https://github.com/unitreerobotics/unitree_ros/tree/master/robots/h1_description)
 * [Tienkung2](https://github.com/Open-X-Humanoid): [Link to file](https://github.com/Open-X-Humanoid/TienKung_URDF)
-* 
+* [Fourier GR3V2](https://github.com/FFTAI): [Link to file](https://github.com/FFTAI/Wiki-GRx-Models/tree/master/GRX/GR3/gr3v2_1_1)
