@@ -23,6 +23,7 @@ cd ~/IsaacLab/
 ```bash
 ./isaaclab.sh -p trainhumanoidlocomotion.py --task Isaac-Humanoid-Locomotion --num_envs 2048 --headless
 ```
+Note that nine humanoid robots are available for training: Fourier N1, Tienkung2, Unitree G1, Unitree H1, Booster T1, Fourier GR3V2, Kuavo S45, Hightorque HI, and Berkeley Humanoid Lite. To switch to a different robot, open env_cfg.py and change the robot name at line 2428.
 
 **3**. Play the trained agent
 ```bash
