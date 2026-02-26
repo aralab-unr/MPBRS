@@ -31,3 +31,16 @@ Note that nine humanoid robots are available for training: Fourier N1, Tienkung2
 *** should be replaced with: the training log folder name (the run directory), andthe saved model checkpoint file (e.g., model_1000.pt).
 ```
 
+## Acknowledgement
+
+Our method is built upon the used of nine humanoid robot, the URDF is then exported to the IsaacLab using USD file in the provided code, we provided the USD instead of URDf. The original URDF robot models can be found at the following locations:
+
+* [Fourier N1](https://github.com/FFTAI/Wiki-GRx-Gym): [Link to file](https://github.com/FFTAI/Wiki-GRx-Gym/tree/FourierN1/legged_gym/resources/robots/N1)
+* [Kuavo S45](https://gitee.com/leju-robot/kuavo-ros-opensource/blob/master/LICENSE)
+* [Berkley Humanoid Lite](https://github.com/HybridRobotics/Berkeley-Humanoid-Lite-Assets)
+* [Booster T1](https://booster.feishu.cn/wiki/UvowwBes1iNvvUkoeeVc3p5wnUg) ([English](https://booster.feishu.cn/wiki/DtFgwVXYxiBT8BksUPjcOwG4n4f))
+* [HighToqure Hi](https://www.hightorquerobotics.com/hi/)
+* [Unitree G1](https://github.com/unitreerobotics/unitree_ros): [Link to file](https://github.com/unitreerobotics/unitree_ros/tree/master/robots/g1_description)
+* [Unitree H1](https://github.com/unitreerobotics/unitree_ros): [Link to file](https://github.com/unitreerobotics/unitree_ros/tree/master/robots/h1_description)
+* [Tienkung2](https://github.com/Open-X-Humanoid): [Link to file](https://github.com/Open-X-Humanoid/TienKung_URDF)
+* 
