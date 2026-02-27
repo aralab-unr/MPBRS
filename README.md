@@ -42,8 +42,8 @@ Note that nine humanoid robots are available for training: Fourier N1, Tienkung2
 ## 🎥 Demo Video
 [Watch the video](./figures/MPBRS_IROS_compressed.mp4)
 <p align="center">
-  <img src="figures/MPBRS_IROS_1.gif" alt="MPBRS_IROS_1.gif" width="500">
-  <img src="figures/MPBRS_IROS_2.gif" alt="MPBRS_IROS_2.gif" width="500">
+  <img src="figures/MPBRS_IROS_1.gif" alt="MPBRS_IROS_1.gif" width="450">
+  <img src="figures/MPBRS_IROS_2.gif" alt="MPBRS_IROS_2.gif" width="450">
 </p>
 
 ## Acknowledgement
