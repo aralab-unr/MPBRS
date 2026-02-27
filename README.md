@@ -39,9 +39,8 @@ Note that nine humanoid robots are available for training: Fourier N1, Tienkung2
 *** should be replaced with: the training log folder name (the run directory), andthe saved model checkpoint file (e.g., model_1000.pt).
 ```
 
-<p align="center">
-  <img src="figures/MPBRS_IROS_compressed.gif" alt="failure" width="1000">
-</p>
+## 🎥 Demo Video
+[Watch the video](./figure/MPBRS_IROS_compressed.mp4)
 
 ## Acknowledgement
 
