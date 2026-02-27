@@ -5,7 +5,7 @@
 
 #### Key features of MPBRS:
 - Multi-term potential-based reward shaping (MPBRS) for humanoid RL, combining interpretable terms such as uprightness, height regulation, and joint regularization.
-- Dense, progress-based reward signals that improve learning stability and sample efficiency compared to ad-hoc reward bonuses.
+- Dense, progress-based reward signals that improve learning stability and sample efficiency.
 - Easy to debug and tune; MPBRS supports multiple humanoid robots and is less sensitive to reward-weight tuning.
   
 > [!NOTE]
