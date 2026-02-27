@@ -39,6 +39,10 @@ Note that nine humanoid robots are available for training: Fourier N1, Tienkung2
 *** should be replaced with: the training log folder name (the run directory), andthe saved model checkpoint file (e.g., model_1000.pt).
 ```
 
+
+Uploading MPBRS_IROS_compressed.mp4…
+
+
 ## Acknowledgement
 
 Our method is developed and evaluated using nine humanoid robots. In the provided code, the robot models are imported into IsaacLab as USD files, and we provide the USD files rather than the URDF files. The original URDF robot models can be found at the following locations:
